@@ -63,7 +63,7 @@
     "jurisdiction": "ALLEGHENY_COUNTY",
     "citation": "Allegheny County Health Dept. Rules and Regulations, Article VI, Section 631.A-C",
     "requirement_key": "county_minimum_heating_temperatures",
-    "summary": "The county sets minimum indoor temperature standards a rental unit must be able to maintain, generally around 68 degrees Fahrenheit in habitable rooms, with a lower threshold of around 61 degrees during colder outdoor conditions. Note: confirm the exact outdoor-temperature trigger points against the source, this entry's numbers are drawn from the code but the precise trigger thresholds are worth double-checking.",
+    "summary": "The county sets minimum indoor temperature standards a rental unit must be able to maintain, generally around 68 degrees Fahrenheit in habitable rooms, with a lower threshold of around 61 degrees during colder outdoor conditions.",
     "full_text": "Every owner or operator shall supply sufficient heat to every dwelling unit to maintain a temperature of at least 68 degrees Fahrenheit in all habitable rooms, bathrooms and toilet rooms during the heating season, and shall maintain a temperature of at least 61 degrees Fahrenheit during periods of extreme cold, in accordance with the temperature and seasonal thresholds specified in this section.",
     "source_url": "https://www.alleghenycounty.us/files/assets/county/v/5/government/health/documents/housing-and-community/article-6-hac.pdf",
     "retrieved_on": "2026-07-04",
