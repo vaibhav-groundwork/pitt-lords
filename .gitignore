@@ -12,3 +12,4 @@ node_modules/
 # macOS
 .DS_Store
 frontend/.env.local
+data/test_leases/lease1.pdf
