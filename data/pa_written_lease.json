@@ -1,0 +1,35 @@
+[
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 201",
+    "requirement_key": "written_lease_3yrs_or_less",
+    "summary": "Leases for a term of three years or less may be made either orally or in writing, both are legally valid.",
+    "full_text": "Real property, including any personal property thereon, may be leased for a term of not more than three years by a landlord or his agent to a tenant or his agent, by oral or written contract or agreement.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 202",
+    "requirement_key": "written_lease_over_3yrs",
+    "summary": "Leases longer than three years must be in writing and signed by both parties, otherwise it is only a lease-at-will, unless the tenant has stayed over a year with both sides treating it as ongoing, in which case it becomes a year-to-year tenancy.",
+    "full_text": "Real property, including any personal property thereon, may be leased for a term of more than three years by a landlord to a tenant or by their respective agents lawfully authorized in writing. Any such lease must be in writing and signed by the parties making or creating the same, otherwise it shall have the force and effect of a lease at will only and shall not be given any greater force or effect either in law or equity, notwithstanding any consideration therefor, unless the tenancy has continued for more than one year and the landlord and tenant have recognized its rightful existence by claiming and admitting liability for the rent, in which case the tenancy shall become one from year to year.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 203",
+    "requirement_key": "written_lease_assignment_surrender",
+    "summary": "Assigning, granting, or surrendering a lease longer than three years must be done in writing, unless it happens automatically by operation of law.",
+    "full_text": "No lease of any real property made or created for a term of more than three years shall be assigned, granted or surrendered except in writing signed by the party assigning, granting or surrendering the same or his agent, unless such assigning, granting or surrendering shall result from operation of law.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  }
+]

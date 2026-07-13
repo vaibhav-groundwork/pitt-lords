@@ -1,0 +1,38 @@
+[
+  {
+    "jurisdiction": "FEDERAL",
+    "citation": "42 U.S.C. § 4852d; 24 CFR § 35.88(b)",
+    "requirement_key": "federal_lead_disclosure_required_in_lease",
+    "summary": "For housing built before 1978, the lease itself (or an attachment to it) must include a specific federally-worded Lead Warning Statement, plus disclosure of any known lead-based paint or hazards, any available records/reports, and the EPA lead hazard pamphlet. This is one of the few federal items directly checkable against the lease document's own text.",
+    "full_text": "Each contract to lease target housing shall include, as an attachment or within the contract, a Lead Warning Statement with the following language: 'Housing built before 1978 may contain lead-based paint. Lead from paint, paint chips, and dust can pose health hazards if not managed properly. Lead exposure is especially harmful to young children and pregnant women. Before renting pre-1978 housing, lessors must disclose the presence of known lead-based paint and/or lead-based paint hazards in the dwelling.' The lessor must also disclose to the lessee the presence of any known lead-based paint or lead-based paint hazards, provide any available lead hazard evaluation reports, and provide the lessee with the EPA-approved lead hazard information pamphlet.",
+    "source_url": "https://www.ecfr.gov/current/title-24/subtitle-A/part-35/subpart-A",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active",
+    "check_tier": "requirement"
+  },
+  {
+    "jurisdiction": "FEDERAL",
+    "citation": "42 U.S.C. § 4852d(b)(2); 24 CFR § 35.82",
+    "requirement_key": "federal_lead_disclosure_exemptions",
+    "summary": "The federal lead disclosure requirement doesn't apply in certain cases: leases of 100 days or less with no renewal option, a renewal of a lease to the same tenant where the landlord already disclosed and has no new information, zero-bedroom units, housing certified lead-free by an inspector, and housing specifically for the elderly or people with disabilities (unless a child under 6 lives there).",
+    "full_text": "Exemptions from the lead-based paint disclosure requirements include: property leased for 100 days or less with no possibility of renewal or extension; re-lease or renewal of a lease for the same property to the same tenant where the landlord previously complied with the law's disclosures and has no new information about lead-based paint; housing for the elderly or persons with disabilities, unless a child under age six resides or is expected to reside there; foreclosure sales; housing with no separate bedroom (zero-bedroom units); and property that has been certified as lead-paint free by an authorized inspector.",
+    "source_url": "https://www.ecfr.gov/current/title-24/subtitle-A/part-35/subpart-A",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active",
+    "check_tier": "awareness"
+  },
+  {
+    "jurisdiction": "FEDERAL",
+    "citation": "42 U.S.C. § 4852d(b)(3)",
+    "requirement_key": "federal_lead_disclosure_penalty",
+    "summary": "A landlord who knowingly violates the lead disclosure requirements can be sued by the tenant for triple the tenant's actual damages, and the landlord, any co-owners, and any agents involved can each be held liable for the full amount.",
+    "full_text": "Any person who knowingly violates any provision of this section shall be jointly and severally liable to the purchaser or lessee in an amount equal to 3 times the amount of damages incurred by such individual.",
+    "source_url": "https://www.law.cornell.edu/uscode/text/42/4852d",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active",
+    "check_tier": "awareness"
+  }
+]

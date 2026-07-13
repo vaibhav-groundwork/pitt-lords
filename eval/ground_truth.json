@@ -1,0 +1,52 @@
+{
+  "waiver_compliant.docx": {
+    "description": "Tests genuine compliant findings on a notice-waiver clause and a correctly-named escrow bank -- proves the pipeline can recognize compliance, not just find absences or violations.",
+    "expected": {
+      "notice_period_default_by_term_length": "compliant",
+      "notice_period_lease_can_shorten_or_waive": "compliant",
+      "security_deposit_escrow_notice": "compliant",
+      "security_deposit_max_year1": "compliant",
+      "federal_lead_disclosure_required_in_lease": "absent",
+      "abandoned_property_no_disposal_without_permission": "absent"
+    }
+  },
+  "illegal_waiver.docx": {
+    "description": "Tests that a clause attempting to waive a legally non-waivable protection (security deposit anti-waiver) is correctly caught as a contradiction, not accepted at face value.",
+    "expected": {
+      "security_deposit_no_waiver_511": "contradicts",
+      "security_deposit_no_waiver_512": "contradicts",
+      "security_deposit_return_30days": "contradicts",
+      "security_deposit_max_year1": "compliant"
+    }
+  },
+  "lead_disclosure_compliant.docx": {
+    "description": "Tests a genuine compliant finding on the federal lead disclosure requirement using the correct full Lead Warning Statement text -- the one requirement-tier item we had only ever seen as absent before this eval set.",
+    "expected": {
+      "federal_lead_disclosure_required_in_lease": "compliant"
+    }
+  },
+  "modification_blocked.docx": {
+    "description": "Tests a sharper, unambiguous version of the reasonable-modification issue than the real test lease's softer 'may be withheld' language -- should land clearly in contradicts or needs_review, not compliant.",
+    "expected": {
+      "federal_fair_housing_reasonable_modification": ["contradicts", "needs_review"]
+    }
+  },
+  "table_layout.docx": {
+    "description": "Deposit and rent figures exist ONLY inside a real Word table, no paragraph text at all. Tests document_extract.py's table-extraction path end to end, which was built in Phase 3 but never exercised against real content until this eval set.",
+    "expected": {
+      "security_deposit_max_year1": "compliant",
+      "written_lease_3yrs_or_less": "compliant"
+    }
+  },
+  "sparse_minimal.docx": {
+    "description": "A deliberately bare-bones lease missing nearly every requirement-tier topic. Control case confirming 'absent' detection stays solid and doesn't drift into false positives on a clean, unambiguous case.",
+    "expected": {
+      "federal_lead_disclosure_required_in_lease": "absent",
+      "security_deposit_escrow_notice": "absent",
+      "security_deposit_return_30days": "absent",
+      "county_detector_battery_responsibility": "absent",
+      "notice_period_default_by_term_length": "absent",
+      "abandoned_property_no_disposal_without_permission": "absent"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "jurisdiction": "ALLEGHENY_COUNTY",
+    "citation": "Allegheny County Health Dept. Rules and Regulations, Article VI, Section 631.D",
+    "requirement_key": "county_heating_responsibility_waivable",
+    "summary": "The landlord is responsible for supplying heat to maintain minimum required temperatures, unless the tenant has agreed in writing to furnish their own heat.",
+    "full_text": "The requirements of this section relating to the furnishing of heat shall not apply in any instance where the occupant of a dwelling unit has agreed in writing to furnish his or her own fuel or heating devices, in which case the occupant shall be responsible for maintaining the required minimum temperatures.",
+    "source_url": "https://www.alleghenycounty.us/files/assets/county/v/5/government/health/documents/housing-and-community/article-6-hac.pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": "2025-12-22",
+    "status": "active",
+    "check_tier": "requirement"
+  },
+  {
+    "jurisdiction": "ALLEGHENY_COUNTY",
+    "citation": "Allegheny County Health Dept. Rules and Regulations, Article VI, Section 643.C-D",
+    "requirement_key": "county_detector_battery_responsibility",
+    "summary": "The landlord is responsible for smoke and carbon monoxide detector batteries in common areas and rooming units. In an individual dwelling unit, the occupant is responsible for providing proper batteries to their own smoke and CO detectors.",
+    "full_text": "The owner or operator shall be responsible for providing batteries in rooming units and common areas. The occupant of a dwelling unit shall be responsible for providing proper batteries to smoke detectors and carbon monoxide detectors within their dwelling unit.",
+    "source_url": "https://www.alleghenycounty.us/files/assets/county/v/5/government/health/documents/housing-and-community/article-6-hac.pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": "2025-12-22",
+    "status": "active",
+    "check_tier": "requirement"
+  },
+  {
+    "jurisdiction": "ALLEGHENY_COUNTY",
+    "citation": "Allegheny County Health Dept. Rules and Regulations, Article VI, Section 652.C",
+    "requirement_key": "county_window_screen_responsibility_waivable",
+    "summary": "The landlord is generally responsible for supplying and hanging window screens, unless the landlord and tenant have agreed otherwise.",
+    "full_text": "Every window and other outside opening used for ventilation shall be supplied with screens, which shall be supplied and hung by the owner or operator, unless the owner or operator and occupant have agreed otherwise as to who shall supply and hang screens.",
+    "source_url": "https://www.alleghenycounty.us/files/assets/county/v/5/government/health/documents/housing-and-community/article-6-hac.pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": "2025-12-22",
+    "status": "active",
+    "check_tier": "requirement"
+  },
+  {
+    "jurisdiction": "ALLEGHENY_COUNTY",
+    "citation": "Allegheny County Health Dept. Rules and Regulations, Article VI, Section 662",
+    "requirement_key": "county_utility_discontinuance_prohibited",
+    "summary": "No landlord, tenant, or occupant may cause a required service (heat, water, electricity, etc.) to be removed, shut off, or discontinued, except for actual necessary repairs or during a genuine emergency.",
+    "full_text": "No owner, operator, tenant or occupant shall cause any service, facility, equipment or utility which is required under this Article to be removed, shut off or discontinued for any occupied dwelling, dwelling unit or rooming unit, except for such temporary interruption as may be necessary while actual repairs or alterations are in process, or during temporary emergencies.",
+    "source_url": "https://www.alleghenycounty.us/files/assets/county/v/5/government/health/documents/housing-and-community/article-6-hac.pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": "2025-12-22",
+    "status": "active",
+    "check_tier": "requirement"
+  }
+]

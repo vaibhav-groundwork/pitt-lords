@@ -1,0 +1,50 @@
+[
+  {
+    "jurisdiction": "FEDERAL",
+    "citation": "42 U.S.C. § 3604(a)-(b)",
+    "requirement_key": "federal_fair_housing_refusal_and_terms",
+    "summary": "Federal law prohibits refusing to rent, or making a dwelling unavailable, based on race, color, religion, sex, familial status, or national origin. It's equally unlawful to discriminate in the terms, conditions, or services of a rental based on these same protected classes.",
+    "full_text": "(a) To refuse to sell or rent after the making of a bona fide offer, or to refuse to negotiate for the sale or rental of, or otherwise make unavailable or deny, a dwelling to any person because of race, color, religion, sex, familial status, or national origin. (b) To discriminate against any person in the terms, conditions, or privileges of sale or rental of a dwelling, or in the provision of services or facilities in connection therewith, because of race, color, religion, sex, familial status, or national origin.",
+    "source_url": "https://www.law.cornell.edu/uscode/text/42/3604",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active",
+    "check_tier": "awareness"
+  },
+  {
+    "jurisdiction": "FEDERAL",
+    "citation": "42 U.S.C. § 3604(c)",
+    "requirement_key": "federal_fair_housing_discriminatory_advertising",
+    "summary": "It's illegal to publish or make any statement or advertisement about a rental that indicates a preference, limitation, or discrimination based on race, color, religion, sex, disability, familial status, or national origin, even indirectly implying it.",
+    "full_text": "To make, print, or publish, or cause to be made, printed, or published any notice, statement, or advertisement, with respect to the sale or rental of a dwelling that indicates any preference, limitation, or discrimination based on race, color, religion, sex, handicap, familial status, or national origin, or an intention to make any such preference, limitation, or discrimination.",
+    "source_url": "https://www.law.cornell.edu/uscode/text/42/3604",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active",
+    "check_tier": "awareness"
+  },
+  {
+    "jurisdiction": "FEDERAL",
+    "citation": "42 U.S.C. § 3604(f)(3)(A)",
+    "requirement_key": "federal_fair_housing_reasonable_modification",
+    "summary": "A landlord cannot refuse to let a tenant with a disability make reasonable modifications to the unit, at the tenant's own expense, if needed for full use of the premises. For rentals, the landlord can require the tenant to restore the unit to its original condition when they move out, normal wear and tear excepted. A lease clause flatly prohibiting all tenant alterations, with no accommodation process, would conflict with this.",
+    "full_text": "For purposes of this subsection, discrimination includes a refusal to permit, at the expense of the handicapped person, reasonable modifications of existing premises occupied or to be occupied by such person if such modifications may be necessary to afford such person full enjoyment of the premises except that, in the case of a rental, the landlord may where it is reasonable to do so condition permission for a modification on the renter agreeing to restore the interior of the premises to the condition that existed before the modification, reasonable wear and tear excepted.",
+    "source_url": "https://www.law.cornell.edu/uscode/text/42/3604",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active",
+    "check_tier": "requirement"
+  },
+  {
+    "jurisdiction": "FEDERAL",
+    "citation": "42 U.S.C. § 3604(f)(3)(B)",
+    "requirement_key": "federal_fair_housing_reasonable_accommodation",
+    "summary": "A landlord cannot refuse to make reasonable accommodations in rules, policies, practices, or services when needed for a person with a disability to equally use and enjoy the unit. A lease's blanket policy (e.g. a strict no-pets rule with no exception process) would conflict with this, since it must accommodate needs like service or support animals.",
+    "full_text": "For purposes of this subsection, discrimination includes a refusal to make reasonable accommodations in rules, policies, practices, or services, when such accommodations may be necessary to afford such person equal opportunity to use and enjoy a dwelling.",
+    "source_url": "https://www.law.cornell.edu/uscode/text/42/3604",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active",
+    "check_tier": "requirement"
+  }
+]

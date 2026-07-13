@@ -1,0 +1,50 @@
+[
+  {
+    "jurisdiction": "PITTSBURGH_CITY",
+    "citation": "Pittsburgh Code § 781.02",
+    "requirement_key": "city_rental_permit_required",
+    "summary": "A landlord cannot lease, rent, or allow a unit in Pittsburgh to be occupied, or collect rent for it, without a currently valid rental permit from the City.",
+    "full_text": "No person shall lease, rent, or otherwise allow a rental unit within the City to be occupied without having a currently valid rental permit issued by the License Officer as required by this Chapter. It shall be unlawful for any person to charge or collect rent for occupancy of a rental unit with the City unless a permit has been issued by the License Officer and such permit has not expired or been revoked.",
+    "source_url": "https://ecode360.com/45465318",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": "2023-09-28",
+    "status": "active",
+    "check_tier": "awareness"
+  },
+  {
+    "jurisdiction": "PITTSBURGH_CITY",
+    "citation": "Pittsburgh Code § 781.03",
+    "requirement_key": "city_rental_registration_renewal",
+    "summary": "Rental unit registration is valid for one year and must be renewed at least 30 days before it expires. If the property is sold, the new owner must re-register within 60 days of the transfer.",
+    "full_text": "Registration of a rental unit shall be effective for one (1) year from the date of issuance. The property owner shall re-register each rental unit with the City at least thirty (30) days prior to the expiration of the registration of the rental unit. If the property is transferred to a new owner, the new property owner of a registered rental unit shall re-register the rental unit within sixty (60) calendar days following the transfer of the property.",
+    "source_url": "https://ecode360.com/45465318",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": "2023-09-28",
+    "status": "active",
+    "check_tier": "awareness"
+  },
+  {
+    "jurisdiction": "PITTSBURGH_CITY",
+    "citation": "Pittsburgh Code § 781.03(e), § 781.04",
+    "requirement_key": "city_rental_inspection_and_permit_term",
+    "summary": "Rental units must pass a City inspection (using the International Property Maintenance Code) to receive a non-provisional permit. Once a unit passes, the permit is valid for 3 years. If access for inspection is refused, the City can obtain an administrative warrant rather than being blocked entirely.",
+    "full_text": "Except as otherwise provided in this Section, every rental unit is required to pass inspection as a postcondition to the issuance of a rental permit, for the purpose of ascertaining that the unit complies with City of Pittsburgh housing and property maintenance standards. For any unit that has passed its inspection, the permit shall be effective for three (3) years. The City of Pittsburgh will utilize the International Property Maintenance Code for the purposes of carrying out and enforcing compliance with minimum residential rental housing quality and standards. The failure of an owner, landlord, or occupant to allow the inspector access to a rental unit sufficient to permit the required inspection shall result in the License Officer obtaining an administrative warrant in accordance with Section 104.3 of the International Property Maintenance Code.",
+    "source_url": "https://ecode360.com/45465318",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": "2023-09-28",
+    "status": "active",
+    "check_tier": "awareness"
+  },
+  {
+    "jurisdiction": "PITTSBURGH_CITY",
+    "citation": "Pittsburgh Code § 781.09",
+    "requirement_key": "city_rental_permit_penalty",
+    "summary": "Renting out a unit without a valid rental permit is a summary offense, punishable by a fine of up to $500 per unit, per month, for as long as the unit remains unregistered or unpermitted.",
+    "full_text": "Leasing, renting, or otherwise allowing a rental unit within the City to be occupied without a valid rental permit from the License Officer as required by this Chapter shall be a summary offense. The fine for each separate violation shall not exceed five hundred dollars ($500.00) per each unit per month that a rental unit is not registered or properly permitted as required by this Chapter.",
+    "source_url": "https://ecode360.com/45465318",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": "2023-09-28",
+    "status": "active",
+    "check_tier": "awareness"
+  }
+]

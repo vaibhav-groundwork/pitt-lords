@@ -1,0 +1,26 @@
+[
+  {
+    "jurisdiction": "PITTSBURGH_CITY",
+    "citation": "Pittsburgh Code § 782.01(retaliation)",
+    "requirement_key": "city_lead_retaliation_prohibited",
+    "summary": "A landlord cannot retaliate against a tenant for exercising lead-safety rights, including requesting a lead inspection. If a landlord tries to evict a tenant within 90 days of a lead inspection, the law presumes it was retaliatory unless the landlord can show otherwise.",
+    "full_text": "An owner or landlord shall not retaliate against any tenant for an exercise of any rights provided hereunder, including the receipt of a lead inspection of tenant's rental unit. There shall be a rebuttable presumption of unlawful retaliation whenever an owner or landlord takes an action to evict a tenant within ninety (90) days of a lead inspection of tenant's rental unit.",
+    "source_url": "https://ecode360.com/45465381",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active",
+    "check_tier": "awareness"
+  },
+  {
+    "jurisdiction": "PITTSBURGH_CITY",
+    "citation": "Pittsburgh Code § 782.01(hazard inspection and remediation)",
+    "requirement_key": "city_lead_hazard_inspection_remediation",
+    "summary": "For rental buildings built before 1978, City inspections (tied to the Chapter 781 rental permit process) include specific checks for lead hazards: bare soil, deteriorated paint, and lead dust. Any hazard found must be fixed by the owner using certified lead professionals, with a follow-up re-inspection within 30 days. Buildings receiving City financial assistance have additional specific obligations under this section.",
+    "full_text": "This Section shall apply to any buildings, or portion of a building, that was built before January 1, 1978 and is used as a residential rental dwelling. Inspections conducted pursuant to Section 781.04 of the City Code shall include a visual assessment for bare soil, deteriorated paint surface, and lead dust hazards. Any bare soil, deteriorated paint surface or lead dust hazard identified in an inspection required by this Section shall be remedied by the property owner using properly certified lead professionals. The Department of Permits, Licenses and Inspection shall re-inspect any property where such a hazard has been identified within thirty (30) days of the citation of the hazard or of the receipt of documentation from the property owner certifying correction of the hazard.",
+    "source_url": "https://ecode360.com/45465381",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active",
+    "check_tier": "awareness"
+  }
+]

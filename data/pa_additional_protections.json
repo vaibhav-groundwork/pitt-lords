@@ -1,0 +1,37 @@
+[
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 401",
+    "requirement_key": "distress_exemption_300_waivable",
+    "summary": "A tenant's personal property up to $300 in value is protected from seizure for unpaid rent (distress for rent), unless the tenant has waived this protection in writing.",
+    "full_text": "Unless the right of exemption has been waived by the tenant in writing, personal property to the value of three hundred dollars ($300), in addition to any other personal property specifically exempted by this article, shall be exempt from levy and sale by distress for rent. The officer charged with the execution of any landlord's warrant shall, if requested by the tenant, summon two disinterested and competent persons, who shall be sworn or affirmed by such officer to appraise personal property, including bank notes, money, stocks, judgments or other indebtedness due the tenant, to the value of three hundred dollars ($300), which the tenant may elect to retain, and the property so elected and appraised shall be exempt from levy and sale in such distress proceedings. Each appraiser shall be entitled to receive two dollars ($2.00) for his services.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 502-A",
+    "requirement_key": "landlord_duty_common_area_care",
+    "summary": "A landlord who retains control of shared areas like stairways, hallways, and roadways in a multi-unit building has a duty of reasonable care for safety, extending to the tenant, their family, employees, and visitors.",
+    "full_text": "The retention of control of the stairways, passages, roadways and other common facilities of a tenement building or multiple dwelling premises places upon the landlord, or other possessor, the duty of reasonable care for safety in use. This responsibility of the landlord extends not alone to the individual tenant, but also to his family, servants and employees, business visitors, social guests, and the like. Those who enter in the right of the tenant, even though under his mere license, make a permissible use of the premises for which the common ways and facilities are provided.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active",
+    "check_tier": "awareness"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 505-A",
+    "requirement_key": "drug_violation_lease_breach_grounds",
+    "summary": "By state law, a first drug sale/manufacture/distribution conviction, a second Controlled Substance Act violation, or any police seizure of illegal drugs on the leased premises automatically counts as a lease breach and grounds for removal, whether or not the lease itself says so.",
+    "full_text": "(a) The following acts relating to illegal drugs shall be a breach of condition of the lease and shall be grounds for removal of the tenant from a single-family dwelling, apartment, multiple dwelling premises or tenement building: (1) The first conviction for an illegal sale, manufacture or distribution of any drug in violation of the act of April 14, 1972 (P.L.233, No.64), known as \"The Controlled Substance, Drug, Device and Cosmetic Act,\" on a single-family dwelling or any portion of the multiple dwelling premises or tenement; (2) The second violation of any of the provisions of \"The Controlled Substance, Drug, Device and Cosmetic Act\" on a single-family dwelling or any portion of the multiple dwelling premises or tenement; (3) The seizure by law enforcement officials of any illegal drugs on the leased premises in the single-family dwelling or multiple dwelling premises or tenement. (b) Failure to remove any tenant for violation of any of the provisions of subsection (a) shall not act as a waiver of the landlord's rights with regard to the same or any other tenant relating to any subsequent acts.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active",
+    "check_tier": "awareness"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 501(a)-(b)",
+    "requirement_key": "notice_period_default_by_term_length",
+    "summary": "A landlord may give written notice to remove a tenant for term expiration, lease breach, or failure to pay rent on demand. Default notice periods: 15 days for leases of one year or less or with no fixed term, 30 days for leases longer than one year, and 10 days for failure to pay rent on demand.",
+    "full_text": "(a) A landlord desirous of repossessing real property from a tenant except real property which is a mobile home space as defined in the act of November 24, 1976 (P.L.1176, No.261), known as the \"Mobile Home Park Rights Act,\" may notify, in writing, the tenant to remove from the same at the expiration of the time specified in the notice under the following circumstances, namely, (1) Upon the termination of a term of the tenant, (2) or upon forfeiture of the lease for breach of its conditions, (3) or upon the failure of the tenant, upon demand, to satisfy any rent reserved and due. (b) Except as provided for in subsection (c), in case of the expiration of a term or of a forfeiture for breach of the conditions of the lease where the lease is for any term of one year or less or for an indeterminate time, the notice shall specify that the tenant shall remove within fifteen days from the date of service thereof, and when the lease is for more than one year, then within thirty days from the date of service thereof. In case of failure of the tenant, upon demand, to satisfy any rent reserved and due, the notice shall specify that the tenant shall remove within ten days from the date of the service thereof.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 501(d)",
+    "requirement_key": "notice_period_drug_violation",
+    "summary": "If a lease is being terminated because of a drug-related violation under Section 505-A, the required notice is 10 days, shorter than the standard 15/30 day periods.",
+    "full_text": "In case of termination due to the provisions of section 505-A, the notice shall specify that the tenant shall remove within ten days from the date of service thereof.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 501(e)",
+    "requirement_key": "notice_period_lease_can_shorten_or_waive",
+    "summary": "Unlike security deposit protections, the default notice periods above can be reduced or waived entirely if the lease itself provides for it.",
+    "full_text": "The notice above provided for may be for a lesser time or may be waived by the tenant if the lease so provides.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 514(a)",
+    "requirement_key": "notice_death_of_tenant_termination_right",
+    "summary": "If the sole tenant dies during the lease, their estate's executor or administrator can terminate the lease with 14 days written notice.",
+    "full_text": "Notwithstanding any other provision of this act or law, and if the deceased tenant is the sole tenant of the residential unit, the executor or administrator of the estate of a tenant who dies during the term of a residential lease shall have the option to terminate the lease upon fourteen days' written notice to the landlord on the later of: (1) the last day of the second calendar month that follows the calendar month in which the tenant died; or (2) upon surrender of the rental unit and removal of all of the tenant's personal property.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 514(b)",
+    "requirement_key": "notice_death_of_tenant_liability_preserved",
+    "summary": "Terminating a lease due to the tenant's death doesn't erase the estate's liability for rent or damages owed before termination, but the estate can't be penalized for the termination itself or for giving inadequate notice under this right.",
+    "full_text": "Nothing under this section shall be construed to relieve the tenant's estate of liability for rent money or any other debt incurred prior to the date of termination of the lease, including damages to the premises and any expenses the landlord may incur as a direct result of the tenant's death, except that the tenant's estate shall not be liable for damages or any other penalty for breach or inadequate notice as a result of terminating a lease under subsection (a).",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 205",
+    "requirement_key": "notice_no_termination_for_tenant_association",
+    "summary": "A residential lease cannot be terminated or non-renewed because a tenant, or a member of their family, participated in a tenants' organization or association.",
+    "full_text": "No individual unit lease on residential property shall be terminated or nonrenewed on the basis of the participation of any tenant or member of the tenant's family in a tenants' organization or association.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  }
+]

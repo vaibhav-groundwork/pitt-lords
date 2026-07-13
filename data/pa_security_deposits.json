@@ -1,0 +1,167 @@
+[
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 511.3",
+    "requirement_key": "security_deposit_bond_in_lieu_of_escrow",
+    "summary": "Instead of depositing security deposit funds in escrow, a landlord may guarantee repayment through a surety bond issued by a bonding company authorized to do business in Pennsylvania.",
+    "full_text": "Every landlord subject to the provisions of this act may, in lieu of depositing escrow funds, guarantee that any escrow funds, less cost of necessary repairs, including interest thereon, shall be returned to the tenant upon termination of the lease, or on surrender and acceptance of the leasehold premises. The guarantee of repayment of said escrow funds shall be secured by a good and sufficient guarantee bond issued by a bonding company authorized to do business in Pennsylvania.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 511.1(a)",
+    "requirement_key": "security_deposit_max_year1",
+    "summary": "A landlord may not require a security deposit of more than two months' rent during the first year of a lease.",
+    "full_text": "No landlord may require a sum in excess of two months' rent to be deposited in escrow for the payment of damages to the leasehold premises and/or default in rent thereof during the first year of any lease.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 511.1(b)",
+    "requirement_key": "security_deposit_max_year2plus",
+    "summary": "Starting in the second year of a lease or any renewal, the maximum security deposit drops to one month's rent.",
+    "full_text": "During the second and subsequent years of the lease or during any renewal of the original lease the amount required to be deposited may not exceed one month's rent.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 511.1(d)",
+    "requirement_key": "security_deposit_5yr_freeze",
+    "summary": "Once a tenant has been in possession for five years or more, the landlord cannot increase the security deposit even if rent goes up.",
+    "full_text": "Whenever a tenant has been in possession of premises for a period of five years or greater, any increase or increases in rent shall not require a concomitant increase in any security deposit.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 511.1(c)",
+    "requirement_key": "security_deposit_year3plus_return_procedure",
+    "summary": "For year 3+ escrow deposits, the funds and interest must be returned to the tenant following the procedures in Sections 511.2 and 512.",
+    "full_text": "If, during the third or subsequent year of a lease, or during any renewal after the expiration of two years of tenancy, the landlord requires the one month's rent escrow provided herein, upon termination of the lease, or on surrender and acceptance of the leasehold premises, the escrow funds together with interest shall be returned to the tenant in accordance with sections 511.2 and 512.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 511.1(e)",
+    "requirement_key": "security_deposit_residential_scope_511",
+    "summary": "The security deposit rules in this section apply only to residential rental property, not commercial leases.",
+    "full_text": "This section applies only to the rental of residential property.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 511.1(f)",
+    "requirement_key": "security_deposit_no_waiver_511",
+    "summary": "A tenant cannot waive their security deposit protections under this section, even if the lease says they do.",
+    "full_text": "Any attempted waiver of this section by a tenant by contract or otherwise shall be void and unenforceable.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 511.2(a)",
+    "requirement_key": "security_deposit_escrow_notice",
+    "summary": "Deposits over $100 must be held in a regulated escrow account, and the landlord must notify the tenant in writing where the money is held.",
+    "full_text": "Except as otherwise provided in this section, all funds over one hundred dollars ($100) deposited with a lessor to secure the execution of a rental agreement on residential property in accordance with section 511.1 and pursuant to any lease newly executed or reexecuted after the effective date of this act shall be deposited in an escrow account of an institution regulated by the Federal Reserve Board, the Federal Home Loan Bank Board, Comptroller of the Currency, or the Pennsylvania Department of Banking. When any funds are deposited in any escrow account, interest-bearing or noninterest-bearing, the lessor shall thereupon notify in writing each of the tenants making any such deposit, giving the name and address of the banking institution in which such deposits are held, and the amount of such deposits.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 511.2(b)-(c)",
+    "requirement_key": "security_deposit_interest_year3plus",
+    "summary": "Starting in year 3 of the deposit, the landlord must pay the tenant the interest earned annually, keeping only a 1 percent administrative fee.",
+    "full_text": "Whenever any money is required to be deposited in an interest-bearing escrow savings account, in accordance with section 511.1, then the lessor shall be entitled to receive as administrative expenses, a sum equivalent to one per cent per annum upon the security money so deposited, which shall be in lieu of all other administrative and custodial expenses. The balance of the interest paid shall be the money of the tenant making the deposit and will be paid to said tenant annually upon the anniversary date of the commencement of his lease. The provisions of this section shall apply only after the second anniversary of the deposit of escrow funds.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 512(a)",
+    "requirement_key": "security_deposit_return_30days",
+    "summary": "Within 30 days of lease termination, the landlord must give the tenant a written list of any damages and pay back the deposit balance, unless rent is unpaid or another lease condition was breached.",
+    "full_text": "Every landlord shall within thirty days of termination of a lease or upon surrender and acceptance of the leasehold premises, whichever first occurs, provide a tenant with a written list of any damages to the leasehold premises for which the landlord claims the tenant is liable. Delivery of the list shall be accompanied by payment of the difference between any sum deposited in escrow, including any unpaid interest thereon, for the payment of damages to the leasehold premises and the actual amount of damages to the leasehold premises caused by the tenant. Nothing in this section shall preclude the landlord from refusing to return the escrow fund, including any unpaid interest thereon, for nonpayment of rent or for the breach of any other condition in the lease by the tenant.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 512(b)",
+    "requirement_key": "security_deposit_forfeit_no_itemization",
+    "summary": "If the landlord misses the 30-day itemized list deadline, they forfeit the right to withhold any part of the deposit or sue the tenant for damages.",
+    "full_text": "Any landlord who fails to provide a written list within thirty days as required in subsection (a), above, shall forfeit all rights to withhold any portion of sums held in escrow, including any unpaid interest thereon, or to bring suit against the tenant for damages to the leasehold premises.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 512(c)",
+    "requirement_key": "security_deposit_double_damages",
+    "summary": "If the landlord fails to pay back the owed deposit difference within 30 days, they become liable for double that amount.",
+    "full_text": "If the landlord fails to pay the tenant the difference between the sum deposited, including any unpaid interest thereon, and the actual damages to the leasehold premises caused by the tenant within thirty days after termination of the lease or surrender and acceptance of the leasehold premises, the landlord shall be liable in assumpsit to double the amount by which the sum deposited in escrow, including any unpaid interest thereon, exceeds the actual damages to the leasehold premises caused by the tenant as determined by any court of record or court not of record having jurisdiction in civil actions at law. The burden of proof of actual damages caused by the tenant to the leasehold premises shall be on the landlord.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 512(d)",
+    "requirement_key": "security_deposit_no_waiver_512",
+    "summary": "A tenant cannot waive their rights under this section, even if the lease says they do.",
+    "full_text": "Any attempted waiver of this section by a tenant by contract or otherwise shall be void and unenforceable.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 512(e)",
+    "requirement_key": "security_deposit_forwarding_address_relief",
+    "summary": "If the tenant does not give the landlord a written forwarding address after moving out, the landlord is relieved of liability under this section.",
+    "full_text": "Failure of the tenant to provide the landlord with his new address in writing upon termination of the lease or upon surrender and acceptance of the leasehold premises shall relieve the landlord from any liability under this section.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 512(f)",
+    "requirement_key": "security_deposit_residential_scope_512",
+    "summary": "This section applies only to residential leases, not commercial leaseholds.",
+    "full_text": "This section shall apply only to residential leaseholds and not to commercial leaseholds.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  }
+]

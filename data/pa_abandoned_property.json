@@ -1,0 +1,90 @@
+[
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 505.1(a)-(b)",
+    "requirement_key": "abandoned_property_deemed_conditions",
+    "summary": "A tenant must remove all personal property when a lease ends. Property left behind may only be treated as abandoned if specific conditions are met: the tenant vacated after a written lease ended, an eviction order was entered and the tenant vacated and removed most property, an eviction order was executed, the tenant gave a forwarding address and vacated and removed most property, or the tenant vacated without saying they would return, rent is more than 15 days overdue, and the landlord posted notice of the tenant's rights.",
+    "full_text": "(a) Upon the termination of a lease or relinquishment of possession of real property, a tenant shall remove all personal property from the leased or formerly leased premises. Abandoned personal property remaining on the premises may be disposed of at the discretion of the landlord, subject to the provisions of this section. (b) Personal property remaining on the premises may be deemed abandoned if any of the following apply: (1) The tenant has vacated the unit following the termination of a written lease. (2) An eviction order or order for possession in favor of the landlord has been entered and the tenant has vacated the unit and removed substantially all personal property. (3) An eviction order or order for possession in favor of the landlord has been executed. (4) The tenant has provided the landlord with written notice of a forwarding address and has vacated the unit and removed substantially all personal property. (5) The tenant has vacated the unit without communicating an intent to return, the rent is more than fifteen days past due and, subsequent to those events, the landlord has posted notice of the tenant's rights regarding the property.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 505.1(c)",
+    "requirement_key": "abandoned_property_decedent_exclusion",
+    "summary": "If the tenant is deceased, this section does not apply. Their property is instead handled under Pennsylvania's decedents, estates and fiduciaries law through Orphans' Court.",
+    "full_text": "Where the tenant is deceased and leaves personal property remaining in the demised premises, the provisions of this act shall not apply. The disposition of personal property in the case of a decedent shall be governed by the provisions of 20 Pa.C.S. Sections 711(1) (relating to mandatory exercise of jurisdiction through orphans' court division in general) and 3392 (relating to classification and order of payment) and other relevant provisions of 20 Pa.C.S. (relating to decedents, estates and fiduciaries).",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 505.1(d)",
+    "requirement_key": "abandoned_property_notice_and_retrieval_period",
+    "summary": "Before disposing of abandoned property, the landlord must give written notice. The tenant then has 10 days from the postmark date to retrieve items, or can request storage for up to 30 days from the notice date at the tenant's cost. The landlord must use ordinary care to secure the property and keep it reasonably available.",
+    "full_text": "Prior to removing or disposing of abandoned property, the landlord must provide written notice of the tenant's rights regarding the property. The tenant shall have ten days from the postmark date of the notice to retrieve the property or to request that the property be stored for an additional period not exceeding thirty days from the date of the notice. If the tenant so requests, the landlord must retain or store the property for up to thirty days from the date of the notice. Storage will be provided at a place of the landlord's choosing and the tenant shall be responsible for costs. At all times, the landlord shall exercise ordinary care in handling and securing the tenant's property and shall make the property reasonably available for purposes of retrieval.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 505.1(e)",
+    "requirement_key": "abandoned_property_notice_form_and_delivery",
+    "summary": "The abandonment notice must be sent by first class mail to the leased address and any forwarding address the tenant provided, and must substantially follow the specific wording set out in the statute.",
+    "full_text": "Notice shall be sent by first class mail to the tenant at the address of the leased premises and to any forwarding address provided by the tenant, including any address provided for emergency purposes. The notice shall be in substantially the following form: Personal property remaining at (address) is now considered to have been abandoned. Within ten days of the postmark date of this notice, you must retrieve any items you wish to keep or contact your landlord at (telephone number and address) to request that the property be retained or stored. If requested, storage will be provided for up to thirty days from the postmark date of this notice at a place of your landlord's choosing, and you will be responsible for costs of storage.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 505.1(f)",
+    "requirement_key": "abandoned_property_no_disposal_without_permission",
+    "summary": "A landlord can never dispose of or take control of personal property left on premises that are still inhabited, without the tenant's express permission. If the legal conditions for abandoned status don't actually exist, the landlord has no right to dispose of the property at all.",
+    "full_text": "Under no circumstances may a landlord dispose of or otherwise exercise control over personal property remaining upon inhabited premises without the express permission of the tenant. If the conditions under which personal property may be deemed abandoned no longer exist, the landlord shall have no right to dispose of or otherwise exercise control over the property.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 505.1(g)",
+    "requirement_key": "abandoned_property_lease_terms_control",
+    "summary": "Unlike security deposit rules, if a written lease's terms conflict with this section's abandoned-property procedures, the lease terms control, except for the domestic violence protection below.",
+    "full_text": "Except with respect to the provisions of subsection (h), in the event of a conflict between the provisions of this section and the terms of a written lease, the terms of the lease shall control.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 505.1(h)",
+    "requirement_key": "abandoned_property_domestic_violence_hold",
+    "summary": "If the landlord knows about or is notified of a protection-from-abuse order for the tenant or their immediate family, the landlord must hold the property for 30 days from the notice before disposing of it, and must provide storage for up to 30 days if requested. This rule applies even if the lease says otherwise.",
+    "full_text": "Notwithstanding any provision of this section to the contrary, if a landlord proceeding under the provisions of subsection (b)(3) has actual knowledge or is notified of a protection from abuse order entered for the protection of the tenant or a member of the tenant's immediate family, the landlord shall refrain from disposing of or otherwise exercising control over the personal property of the tenant for thirty days from the date of the notice. If requested, storage shall be provided for up to thirty days from the date of the request.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  },
+  {
+    "jurisdiction": "PA_STATE",
+    "citation": "68 P.S. Section 505.1(i)",
+    "requirement_key": "abandoned_property_treble_damages_penalty",
+    "summary": "A landlord who violates this section is liable for triple damages, plus the tenant's reasonable attorney fees and court costs.",
+    "full_text": "A landlord that violates the provisions of this section shall be subject to treble damages, reasonable attorney fees and court costs.",
+    "source_url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1951/0/0020..pdf",
+    "retrieved_on": "2026-07-04",
+    "source_currency_date": null,
+    "status": "active"
+  }
+]

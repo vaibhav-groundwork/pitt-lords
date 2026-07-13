@@ -1,0 +1,14 @@
+# Environment variables (NEVER commit secrets)
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+node_modules/
+.next/
+*.log
+# macOS
+.DS_Store
+frontend/.env.local

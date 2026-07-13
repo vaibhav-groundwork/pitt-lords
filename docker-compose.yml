@@ -1,0 +1,22 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: pitt-lords-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: pittlords
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-localdevpassword}
+      POSTGRES_DB: pittlords
+    ports:
+      - "5432:5432"
+    volumes:
+      - pitt_lords_pgdata:/var/lib/postgresql/data
+      - ./ingestion/sql:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pittlords -d pittlords"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  pitt_lords_pgdata:
