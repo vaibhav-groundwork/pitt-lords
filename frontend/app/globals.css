@@ -1,0 +1,53 @@
+:root {
+  --bg: #ECEEEE;
+  --surface: #FFFFFF;
+  --surface-2: #E1E5E6;
+  --border: #D0D5D6;
+  --accent: #2F5770;
+  --accent-bg: #E2EAEE;
+  --text-primary: #21262A;
+  --text-secondary: #5B6469;
+  --text-muted: #8A9195;
+  --green: #2E7D4F;
+  --green-bg: #E7F2EA;
+  --red: #B23A2E;
+  --red-bg: #FBEAE7;
+  --amber: #A8710F;
+  --amber-bg: #FBF1DE;
+  --gray: #7A776E;
+  --gray-bg: #F3F1EA;
+  --violet: #6B4C8A;
+  --violet-bg: #EFE8F5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font: inherit;
+}
