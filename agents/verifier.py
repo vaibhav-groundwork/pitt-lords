@@ -134,14 +134,23 @@ _RECORD_VERIFICATIONS_TOOL: list[dict[str, Any]] = [
                                 "note": {
                                     "type": "string",
                                     "description": (
-                                        "Required in both cases. If confirmed=true: a "
-                                        "brief note on why the agent's reasoning holds "
-                                        "up. If confirmed=false: a clear explanation of "
-                                        "the specific flaw in the agent's own reasoning "
-                                        "-- not a description of the underlying legal "
-                                        "issue in the lease, but an explanation of why "
-                                        "the agent's conclusion does not follow from the "
-                                        "comparison it was asked to make."
+                                        "Required in both cases. Write directly for a "
+                                        "landlord reading a compliance report -- not as "
+                                        "internal audit commentary. Never mention 'the "
+                                        "agent', 'compliance-diff', or any pipeline "
+                                        "component. Never quote the status label as a "
+                                        "technical term; describe the situation in plain "
+                                        "language instead. Never narrate your reasoning "
+                                        "process ('the reasoning points to', 'the "
+                                        "conclusion should reflect'). "
+                                        "If confirmed=true: one or two sentences on the "
+                                        "substance -- what the law requires, what the "
+                                        "lease says, and why that reading holds. "
+                                        "If confirmed=false: explain the actual legal "
+                                        "conflict or gap in plain language, as a direct "
+                                        "second opinion -- what the law requires, what "
+                                        "the lease actually does, and why this is a "
+                                        "problem worth noting."
                                     ),
                                 },
                             },
@@ -450,11 +459,16 @@ def classify_verification(rows_to_verify: list[FindingRow]) -> list[Verification
             "describes a conflict between the clause and the statute. That is "
             "confirmed=false, because the agent's own reasoning undermines its "
             "own verdict.\n\n"
-            "In your note: if confirmed=true, briefly explain why the agent's "
-            "reasoning holds up. If confirmed=false, explain the specific flaw in "
-            "the agent's own logic -- not just that the lease has a legal issue, "
-            "but why the agent's conclusion does not follow from the comparison "
-            "it was asked to make.\n\n"
+            "In your note: write as if speaking directly to the landlord -- no "
+            "references to 'the agent', 'compliance-diff', or any internal "
+            "component. Do not quote the status label as a technical term; "
+            "describe what is happening in plain language. Do not narrate your "
+            "reasoning process; state the substantive legal point directly. "
+            "If confirmed=true: briefly confirm what the law requires and why the "
+            "lease's handling of it holds up. "
+            "If confirmed=false: explain the actual legal conflict or gap in the "
+            "landlord's own terms -- what the law requires, what the lease "
+            "actually says or does, and why it matters.\n\n"
             + "\n\n---\n\n".join(sections)
             + "\n\nCall record_verifications with one entry per REQUIREMENT listed above."
         )
