@@ -1,0 +1,21 @@
+[
+  {"family_key": "201", "jurisdiction": "PA_STATE", "friendly_title": "Leases of three years or less"},
+  {"family_key": "202", "jurisdiction": "PA_STATE", "friendly_title": "Leases longer than three years"},
+  {"family_key": "203", "jurisdiction": "PA_STATE", "friendly_title": "Assigning or surrendering a long-term lease"},
+  {"family_key": "205", "jurisdiction": "PA_STATE", "friendly_title": "Tenant association protections"},
+  {"family_key": "3604", "jurisdiction": "FEDERAL", "friendly_title": "Fair housing & accessibility"},
+  {"family_key": "401", "jurisdiction": "PA_STATE", "friendly_title": "Property exempt from distress for rent"},
+  {"family_key": "4852d", "jurisdiction": "FEDERAL", "friendly_title": "Lead paint disclosure"},
+  {"family_key": "501", "jurisdiction": "PA_STATE", "friendly_title": "Notice before ending a lease"},
+  {"family_key": "504-A", "jurisdiction": "PA_STATE", "friendly_title": "Tenant's right to choose service providers"},
+  {"family_key": "505.1", "jurisdiction": "PA_STATE", "friendly_title": "Handling abandoned property"},
+  {"family_key": "511.1", "jurisdiction": "PA_STATE", "friendly_title": "Security deposit limits"},
+  {"family_key": "511.2", "jurisdiction": "PA_STATE", "friendly_title": "Security deposit escrow & interest"},
+  {"family_key": "511.3", "jurisdiction": "PA_STATE", "friendly_title": "Bond in lieu of escrow"},
+  {"family_key": "512", "jurisdiction": "PA_STATE", "friendly_title": "Returning the security deposit"},
+  {"family_key": "514", "jurisdiction": "PA_STATE", "friendly_title": "Death of a tenant"},
+  {"family_key": "631", "jurisdiction": "ALLEGHENY_COUNTY", "friendly_title": "Heating responsibility"},
+  {"family_key": "643", "jurisdiction": "ALLEGHENY_COUNTY", "friendly_title": "Smoke & CO detector maintenance"},
+  {"family_key": "652", "jurisdiction": "ALLEGHENY_COUNTY", "friendly_title": "Window screen responsibility"},
+  {"family_key": "662", "jurisdiction": "ALLEGHENY_COUNTY", "friendly_title": "Utility shutoffs"}
+]

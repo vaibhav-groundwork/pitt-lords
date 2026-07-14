@@ -291,10 +291,40 @@ def _is_processing_failure(explanation: str) -> bool:
 
 
 # ---------------------------------------------------------------------------
+# Family labels
+# ---------------------------------------------------------------------------
+
+def get_family_labels(conn) -> dict[tuple[str, str], str]:
+    """Query all rows from family_labels and return a lookup dict.
+
+    Parameters
+    ----------
+    conn:
+        An open psycopg connection obtained via ``get_connection()``.
+
+    Returns
+    -------
+    dict[tuple[str, str], str]
+        Maps ``(family_key, jurisdiction)`` to ``friendly_title`` for every
+        row in the family_labels table.
+    """
+    with conn.cursor() as cur:
+        cur.execute(
+            "SELECT family_key, jurisdiction, friendly_title FROM family_labels"
+        )
+        rows = cur.fetchall()
+
+    return {(row[0], row[1]): row[2] for row in rows}
+
+
+# ---------------------------------------------------------------------------
 # Grouping
 # ---------------------------------------------------------------------------
 
-def group_findings_by_family(findings: list[FindingRow]) -> list[dict]:
+def group_findings_by_family(
+    findings: list[FindingRow],
+    labels: dict[tuple[str, str], str] | None = None,
+) -> list[dict]:
     """Group requirement findings by family_key.
 
     Every finding lands in exactly one group keyed by its family_key. Groups
@@ -302,18 +332,35 @@ def group_findings_by_family(findings: list[FindingRow]) -> list[dict]:
     requirement_key. Single-item families produce a single-item group -- the
     output shape is uniform regardless of family size.
 
+    Each group includes a ``friendly_title`` sourced from the ``labels`` dict
+    via ``(family_key, jurisdiction)``, using the jurisdiction of the group's
+    first finding (all findings within one family_key share the same
+    jurisdiction in practice). If no label exists for a group, ``friendly_title``
+    is set to None and a one-line [INFO] note is printed naming the family_key
+    and jurisdiction, so unlabelled families are visible rather than silently
+    rendered blank as the corpus grows.
+
     Parameters
     ----------
     findings:
         List of finding dicts as returned by ``get_requirement_findings``,
         already filtered to exclude processing-failure entries.
+    labels:
+        Mapping of ``(family_key, jurisdiction)`` to ``friendly_title``, as
+        returned by ``get_family_labels``. Defaults to None, treated internally
+        as an empty dict, so callers that omit this argument degrade gracefully
+        (every group's ``friendly_title`` becomes None) rather than raising a
+        missing-argument error.
 
     Returns
     -------
     list[dict]
-        Each element is ``{"family_key": str, "findings": list[FindingRow]}``,
+        Each element is
+        ``{"family_key": str, "friendly_title": str | None, "findings": list[FindingRow]}``,
         ordered by family_key ascending.
     """
+    label_map = labels if labels is not None else {}
+
     groups: dict[str, list[FindingRow]] = {}
     for finding in findings:
         fk = finding["family_key"]
@@ -324,10 +371,23 @@ def group_findings_by_family(findings: list[FindingRow]) -> list[dict]:
     for key in groups:
         groups[key].sort(key=lambda f: f["requirement_key"])
 
-    return [
-        {"family_key": fk, "findings": groups[fk]}
-        for fk in sorted(groups)
-    ]
+    result: list[dict] = []
+    for fk in sorted(groups):
+        group_findings = groups[fk]
+        jurisdiction = group_findings[0]["jurisdiction"]
+        friendly_title = label_map.get((fk, jurisdiction))
+        if friendly_title is None:
+            print(
+                f"  [INFO] group_findings_by_family: no friendly_title authored "
+                f"for family_key='{fk}', jurisdiction='{jurisdiction}'."
+            )
+        result.append({
+            "family_key": fk,
+            "friendly_title": friendly_title,
+            "findings": group_findings,
+        })
+
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -412,13 +472,17 @@ def generate_report(lease_id: str) -> dict[str, Any]:
     -------
     dict
         Full report structure: lease_id, generated_at (ISO 8601 UTC),
-        summary, requirement_findings (grouped, processing failures excluded),
-        awareness_items, processing_warnings, and disclaimer.
+        summary, requirement_findings (grouped with friendly_title per group,
+        processing failures excluded), awareness_items, processing_warnings,
+        and disclaimer. Each group's ``friendly_title`` is str | None -- None
+        when no label has been authored for that family_key/jurisdiction pair,
+        which also triggers an [INFO] log line so gaps are visible.
     """
     conn = get_connection()
     try:
         all_findings = get_requirement_findings(conn, lease_id)
         awareness_items = get_awareness_items(conn, lease_id)
+        family_labels = get_family_labels(conn)
 
         # Split findings into normal and processing-failure sets before any
         # further processing. The failure set feeds processing_warnings only.
@@ -436,7 +500,8 @@ def generate_report(lease_id: str) -> dict[str, Any]:
         conn.close()
 
     # Group normal findings by family and attach the verifier_flag per finding.
-    grouped = group_findings_by_family(normal_findings)
+    # family_labels was fetched inside the try block above, before conn.close().
+    grouped = group_findings_by_family(normal_findings, labels=family_labels)
     for group in grouped:
         enriched: list[dict] = []
         for f in group["findings"]:
