@@ -92,9 +92,11 @@ def get_requirement_findings(conn, lease_id: str) -> list[FindingRow]:
     Returns
     -------
     list[FindingRow]
-        Each dict contains ``requirement_key``, ``citation``, ``family_key``,
-        ``jurisdiction``, ``status``, ``explanation``, ``verifier_confirmed``,
-        and ``verifier_note``. Ordered by jurisdiction then requirement_key.
+        Each dict contains ``requirement_key``, ``citation``, ``source_url``,
+        ``family_key``, ``jurisdiction``, ``status``, ``explanation``,
+        ``verifier_confirmed``, and ``verifier_note``. ``source_url`` may be
+        None for any given row; callers must handle null rather than assuming
+        it is always present. Ordered by jurisdiction then requirement_key.
     """
     with conn.cursor() as cur:
         cur.execute(
@@ -102,6 +104,7 @@ def get_requirement_findings(conn, lease_id: str) -> list[FindingRow]:
             SELECT
                 cf.requirement_key,
                 ls.citation,
+                ls.source_url,
                 ls.family_key,
                 ls.jurisdiction,
                 cf.status,
@@ -476,7 +479,10 @@ def generate_report(lease_id: str) -> dict[str, Any]:
         processing failures excluded), awareness_items, processing_warnings,
         and disclaimer. Each group's ``friendly_title`` is str | None -- None
         when no label has been authored for that family_key/jurisdiction pair,
-        which also triggers an [INFO] log line so gaps are visible.
+        which also triggers an [INFO] log line so gaps are visible. Each
+        finding within a group includes ``source_url`` (str | None); callers
+        must handle null by omitting the link rather than assuming it is
+        always present.
     """
     conn = get_connection()
     try:
@@ -516,6 +522,9 @@ def generate_report(lease_id: str) -> dict[str, Any]:
             enriched.append({
                 "requirement_key": f["requirement_key"],
                 "citation": f["citation"],
+                # source_url may be None; frontend must omit the link rather
+                # than assuming it is always present.
+                "source_url": f["source_url"],
                 "jurisdiction": f["jurisdiction"],
                 "status": f["status"],
                 "explanation": f["explanation"],
