@@ -93,10 +93,16 @@ def get_requirement_findings(conn, lease_id: str) -> list[FindingRow]:
     -------
     list[FindingRow]
         Each dict contains ``requirement_key``, ``citation``, ``source_url``,
-        ``family_key``, ``jurisdiction``, ``status``, ``explanation``,
-        ``verifier_confirmed``, and ``verifier_note``. ``source_url`` may be
-        None for any given row; callers must handle null rather than assuming
-        it is always present. Ordered by jurisdiction then requirement_key.
+        ``summary``, ``family_key``, ``jurisdiction``, ``status``,
+        ``explanation``, ``verifier_confirmed``, and ``verifier_note``.
+        ``source_url`` may be None for any given row; callers must handle null
+        rather than assuming it is always present. ``summary`` is the
+        plain-language topic description from legal_sources (the same field
+        used for awareness_items and during ingestion for embedding generation);
+        it is expected to be populated for essentially every active row but is
+        treated as str | None defensively, consistent with how other nullable
+        fields are handled elsewhere in this file.
+        Ordered by jurisdiction then requirement_key.
     """
     with conn.cursor() as cur:
         cur.execute(
@@ -105,6 +111,7 @@ def get_requirement_findings(conn, lease_id: str) -> list[FindingRow]:
                 cf.requirement_key,
                 ls.citation,
                 ls.source_url,
+                ls.summary,
                 ls.family_key,
                 ls.jurisdiction,
                 cf.status,
@@ -482,7 +489,11 @@ def generate_report(lease_id: str) -> dict[str, Any]:
         which also triggers an [INFO] log line so gaps are visible. Each
         finding within a group includes ``source_url`` (str | None); callers
         must handle null by omitting the link rather than assuming it is
-        always present.
+        always present. Each finding also includes ``summary`` (str | None),
+        the plain-language topic description from legal_sources, so the
+        frontend can show what an absent requirement covers rather than only
+        the boilerplate explanation; treat as str | None even though gaps are
+        rare.
     """
     conn = get_connection()
     try:
@@ -525,6 +536,11 @@ def generate_report(lease_id: str) -> dict[str, Any]:
                 # source_url may be None; frontend must omit the link rather
                 # than assuming it is always present.
                 "source_url": f["source_url"],
+                # summary is the plain-language topic description -- included
+                # so the frontend can show what an absent requirement covers,
+                # rather than only the boilerplate "not addressed" explanation.
+                # Treat as str | None even though gaps are rare in practice.
+                "summary": f["summary"],
                 "jurisdiction": f["jurisdiction"],
                 "status": f["status"],
                 "explanation": f["explanation"],
