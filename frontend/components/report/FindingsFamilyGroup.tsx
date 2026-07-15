@@ -18,6 +18,9 @@ export default function FindingsFamilyGroup({ group }: FindingsFamilyGroupProps)
         border: "1px solid var(--border)",
         borderRadius: 10,
         overflow: "hidden",
+        // Best-effort: keep a family group's header and findings together
+        // across page breaks when printing. Not guaranteed for very tall blocks.
+        breakInside: "avoid",
       }}
     >
       {/* Tinted header band */}

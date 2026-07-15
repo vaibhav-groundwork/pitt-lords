@@ -57,6 +57,7 @@ export default function SourcesSidebar({ report }: SourcesSidebarProps) {
 
   return (
     <div
+      className="sources-sidebar"
       style={{
         position: "sticky",
         top: 24,

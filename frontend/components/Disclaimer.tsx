@@ -1,6 +1,7 @@
 export default function Disclaimer() {
   return (
     <div
+      className="no-print"
       style={{
         position: "sticky",
         bottom: 0,

@@ -51,3 +51,47 @@ button {
   background: none;
   font: inherit;
 }
+
+/* -------------------------------------------------------------------------
+   Print stylesheet
+   These rules require @media print because inline styles cannot express
+   media queries. Every rule that overrides an existing inline style uses
+   !important (inline styles always win over external rules without it).
+   ------------------------------------------------------------------------- */
+@media print {
+  /* Force background colors and borders to print instead of being stripped
+     by the browser's default print behavior. Required for the color-coded
+     status stamps, score tiles, and tinted section headers to remain
+     meaningful on the printed / PDF output. */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Hide elements that are meaningless or broken on paper. */
+  .no-print {
+    display: none !important;
+  }
+
+  /* Stack the two-column findings layout into a single column so content
+     paginates sensibly across pages. !important required to override the
+     inline flex-direction (defaults to row). */
+  .report-columns {
+    flex-direction: column !important;
+  }
+
+  /* Unstick the sources sidebar and expand it to full page width now that the
+     layout is a single column. position/top overrides prevent sticky from
+     overlapping page breaks; width/max-width/align-self overrides expand the
+     240px on-screen panel to fill the full print column. align-self: stretch
+     is needed because the inline alignSelf: "flex-start" would otherwise prevent
+     width: 100% from taking effect inside the column-direction flex container.
+     All !important required to override existing inline styles. */
+  .sources-sidebar {
+    position: static !important;
+    top: auto !important;
+    width: 100% !important;
+    max-width: none !important;
+    align-self: stretch !important;
+  }
+}

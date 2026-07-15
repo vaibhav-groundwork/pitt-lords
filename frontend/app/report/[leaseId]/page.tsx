@@ -33,31 +33,64 @@ export default function ReportPage({
   // Report is ready
   return (
     <div style={{ padding: "40px 32px 48px" }}>
-      {/* Page heading */}
-      <h1
+      {/* Page heading row: title block (left) + Download PDF button (right) */}
+      <div
         style={{
-          fontFamily: "var(--font-fraunces)",
-          fontWeight: 500,
-          fontSize: 30,
-          color: "var(--text-primary)",
-          marginBottom: 6,
-        }}
-      >
-        Lease compliance report
-      </h1>
-      <p
-        style={{
-          fontFamily: "var(--font-inter)",
-          fontSize: 12,
-          color: "var(--text-muted)",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "flex-start",
           marginBottom: 24,
         }}
       >
-        Generated {new Date(report.generated_at).toLocaleString()} &middot;{" "}
-        <span style={{ fontFamily: "var(--font-ibm-plex-mono)" }}>
-          {leaseId}
-        </span>
-      </p>
+        {/* Heading + generated-date/lease-id subline */}
+        <div>
+          <h1
+            style={{
+              fontFamily: "var(--font-fraunces)",
+              fontWeight: 500,
+              fontSize: 30,
+              color: "var(--text-primary)",
+              marginBottom: 6,
+            }}
+          >
+            Lease compliance report
+          </h1>
+          <p
+            style={{
+              fontFamily: "var(--font-inter)",
+              fontSize: 12,
+              color: "var(--text-muted)",
+              marginBottom: 0,
+            }}
+          >
+            Generated {new Date(report.generated_at).toLocaleString()} &middot;{" "}
+            <span style={{ fontFamily: "var(--font-ibm-plex-mono)" }}>
+              {leaseId}
+            </span>
+          </p>
+        </div>
+
+        {/* Download PDF -- hidden when printing (it would be inert on paper) */}
+        <button
+          type="button"
+          className="no-print"
+          onClick={() => window.print()}
+          style={{
+            fontFamily: "var(--font-inter)",
+            fontSize: 13.5,
+            fontWeight: 500,
+            color: "var(--surface)",
+            backgroundColor: "var(--accent)",
+            border: "none",
+            borderRadius: 6,
+            padding: "9px 20px",
+            cursor: "pointer",
+            flexShrink: 0,
+          }}
+        >
+          Download PDF
+        </button>
+      </div>
 
       {/* Score tiles */}
       <ScoreCard summary={report.summary} />
@@ -82,6 +115,7 @@ export default function ReportPage({
 
       {/* Two-column body: main findings + sources sidebar */}
       <div
+        className="report-columns"
         style={{
           display: "flex",
           gap: 32,

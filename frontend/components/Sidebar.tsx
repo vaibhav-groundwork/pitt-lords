@@ -12,6 +12,7 @@ export default function Sidebar() {
 
   return (
     <aside
+      className="no-print"
       style={{
         width: 300,
         flexShrink: 0,
