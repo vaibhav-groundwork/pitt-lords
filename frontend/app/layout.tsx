@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import {
   Fraunces,
   EB_Garamond,
@@ -37,6 +37,15 @@ const ibmPlexMono = IBM_Plex_Mono({
   display: "swap",
 });
 
+// Separate from metadata per Next.js 14+ convention -- viewport must be its
+// own export (the metadata.viewport field is deprecated). Required so @media
+// queries match the device's real pixel width, not the ~980px virtual viewport
+// mobile browsers use when no explicit viewport meta tag is present.
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 export const metadata: Metadata = {
   title: "Pitt-Lords",
   description:
@@ -54,6 +63,7 @@ export default function RootLayout({
       className={`${fraunces.variable} ${ebGaramond.variable} ${inter.variable} ${ibmPlexMono.variable}`}
     >
       <body
+        className="app-shell"
         style={{
           display: "flex",
           minHeight: "100vh",
@@ -71,6 +81,27 @@ export default function RootLayout({
           minHeight: "100vh",
           }}
         >
+          {/* Mobile-only notice: hidden on desktop via .mobile-notice base rule,
+              revealed on narrow screens by the @media (max-width: 768px) override
+              in globals.css. Not a hard gate -- purely informational given the
+              density of the compliance report content. Distinct from and unrelated
+              to the sticky <Disclaimer /> at the bottom of this same container. */}
+          <div
+            className="mobile-notice"
+            style={{
+              backgroundColor: "var(--accent-bg)",
+              color: "var(--accent)",
+              fontFamily: "var(--font-inter)",
+              fontSize: 12.5,
+              textAlign: "center",
+              padding: "10px 20px",
+              borderBottom: "1px solid var(--border)",
+            }}
+          >
+            For the best experience reviewing detailed compliance reports, we
+            recommend using Pitt-Lords on a desktop or tablet.
+          </div>
+
           <main style={{ flex: 1 }}>{children}</main>
           {/* Disclaimer is the last child so sticky bottom works correctly */}
           <Disclaimer />

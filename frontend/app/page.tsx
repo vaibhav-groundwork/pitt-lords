@@ -148,6 +148,7 @@ export default function HomePage() {
 
         {/* Three steps — horizontal 3-column card grid; textAlign resets to left so card content isn't centered by the outer wrapper */}
         <div
+          className="steps-grid"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(3, 1fr)",

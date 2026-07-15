@@ -58,6 +58,7 @@ export default function ScoreCard({ summary }: ScoreCardProps) {
 
   return (
     <div
+      className="score-grid"
       style={{
         display: "grid",
         gridTemplateColumns: "repeat(5, 1fr)",

@@ -12,7 +12,7 @@ export default function Sidebar() {
 
   return (
     <aside
-      className="no-print"
+      className="no-print app-sidebar"
       style={{
         width: 300,
         flexShrink: 0,
@@ -32,6 +32,7 @@ export default function Sidebar() {
       {isReportRoute && (
         <Link
           href="/"
+          className="back-arrow-row"
           style={{
             display: "inline-flex",
             alignItems: "center",
@@ -84,6 +85,7 @@ export default function Sidebar() {
           </span>
         </div>
         <span
+          className="brand-tagline"
           style={{
             fontSize: 11.5,
             fontFamily: "var(--font-inter)",
@@ -96,7 +98,9 @@ export default function Sidebar() {
       </Link>
 
       {/* Route-dependent content */}
-      {isReportRoute ? <ReportLegend /> : <DidYouKnowFacts />}
+      <div className="sidebar-enrichment">
+        {isReportRoute ? <ReportLegend /> : <DidYouKnowFacts />}
+      </div>
     </aside>
   );
 }

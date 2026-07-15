@@ -52,6 +52,97 @@ button {
   font: inherit;
 }
 
+/* .mobile-notice default state: hidden at all screen widths.
+   Unlike the other mobile rules below (which are confined entirely to the
+   media query because they protect an existing desktop default), this
+   element has no desktop presence at all -- its correct base state IS
+   hidden, so the base rule lives outside the media query intentionally.
+   The media-query rule below uses !important to override this base rule
+   on narrow screens. */
+.mobile-notice {
+  display: none;
+}
+
+/* -------------------------------------------------------------------------
+   Mobile responsive stylesheet
+   These rules require @media (max-width: 768px) because inline styles
+   cannot express media queries. Every rule uses !important to override the
+   existing inline styles (inline styles always win without it). No rule
+   here has an unqualified base selector outside the media query -- all
+   declarations are strictly confined to mobile breakpoints to guarantee
+   zero effect on the existing desktop layout.
+   ------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  /* Reveal the mobile-only notice (hidden by default outside this query). */
+  .mobile-notice {
+    display: block !important;
+  }
+
+  /* Defensive backstop: prevents absolutely-positioned elements (e.g. the
+     ScoreCard hover tooltip) from causing horizontal scroll if they escape
+     the viewport on a narrow screen. */
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
+
+  /* App shell: stack sidebar above main content instead of side-by-side. */
+  .app-shell {
+    flex-direction: column !important;
+  }
+
+  /* Sidebar: collapse from a full-height sticky column to a compact top bar. */
+  .app-sidebar {
+    width: 100% !important;
+    height: auto !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    position: static !important;
+    gap: 10px !important;
+  }
+
+  /* Hide tagline and enrichment content (facts / legend) on mobile -- the
+     logo + wordmark and back arrow remain visible and functional. */
+  .brand-tagline {
+    display: none !important;
+  }
+  .sidebar-enrichment {
+    display: none !important;
+  }
+
+  /* Remove bottom margin from the back arrow so it doesn't push content
+     down when the sidebar is a horizontal bar. */
+  .back-arrow-row {
+    margin-bottom: 0 !important;
+  }
+
+  /* ScoreCard: 2-column grid instead of 5 across, which is unreadable at
+     narrow widths. */
+  .score-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  /* Steps grid on the home page: single column on mobile. */
+  .steps-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Report page: stack findings and sources sidebar into a single column. */
+  .report-columns {
+    flex-direction: column !important;
+  }
+
+  /* Sources sidebar: expand to full width when stacked in a single column. */
+  .sources-sidebar {
+    width: 100% !important;
+    max-width: none !important;
+    align-self: stretch !important;
+    position: static !important;
+    top: auto !important;
+  }
+}
+
 /* -------------------------------------------------------------------------
    Print stylesheet
    These rules require @media print because inline styles cannot express
