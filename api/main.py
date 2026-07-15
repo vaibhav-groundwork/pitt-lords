@@ -50,7 +50,7 @@ app = FastAPI(
 # never use "*" once real lease data is flowing through this API.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["http://localhost:3000", "https://pitt-lords.vercel.app"],
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
